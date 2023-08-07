@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: block;
+    height: 200px;
+    width: 100%;
+    background-image: url(./assets/design1_image1.jpg);
+    background-size: cover;
+    position: relative;
+    object-fit: cover;
+    object-position: 0;
+}
+
+div {
+    height: 200px;
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+    object-position: 0;
+}
+
+#logo {
+    float: right;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 10px;
+    width: 100%;
+
+}
+
+h4 {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    font-family: 'Arial';
+    font-size: 50px;
+    text-align: left;
+    font-weight: bolder;
+    position: relative;
+}
+
+h3 {
+    font-family: 'Arial';
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+}
+
+.Mision-Vision-Info {
+    display: block;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 30px;
+}
