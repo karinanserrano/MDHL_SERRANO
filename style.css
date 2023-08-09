@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:  sans-serif;
 }
 
 header {
-    display: block;
+    display: flex;
+    flex-direction: column;
     height: 200px;
     width: 100%;
     background-image: url(./assets/design1_image1.jpg);
@@ -31,37 +33,108 @@ nav a {
     display: flex;
     align-items: center;
     position: relative;
-    margin: 10px;
+    margin: 50px;
     width: 100%;
 
 }
 
-h4 {
+.subtitulo {
     background-color: black;
     color: aliceblue;
     text-align: center;
     position: relative;
+    z-index: -1;
 }
 
-h1 {
+.titulo {
     font-family: 'Arial';
-    font-size: 50px;
+    font-size: 35px;
     text-align: left;
     font-weight: bolder;
     position: relative;
 }
 
+h5 {
+    font-size: 20px;
+    font-family: 'Lucida Sans';
+}
+
+
 h3 {
     font-family: 'Arial';
     font-size: 20px;
-    text-align: center;
+    justify-content: flex-start;
     font-weight: bolder;
     position: relative;
+    margin: 10px;
 }
 
-.Mision-Vision-Info {
-    display: block;
+.contenedor>h2 {
+    display: flex;
+    justify-content: flex-start;
+    font-style: italic;
+}
+
+.contenedor>p {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    font-size: 20px;
+
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     margin-left: 180px;
     margin-top: 30px;
+}
+
+span {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+table {
+    background-color: aquamarine;
+    text-align: center;
+    padding-top: 15px;
+    min-height: auto;
+    width: 600px;
+    border-collapse: collapse;
+    margin: 15px;
+}
+
+table,
+th,
+td {
+    border: 1.5px solid;
+    border-color: black;
+}
+
+th {
+    background-color: rgb(39, 1, 75);
+    color: beige;
+}
+
+.inlist {
+    list-style-type: lower-alpha;
+
+}
+
+li {
+    list-style-position: inside;
+    margin: 15px;
+}
+
+ul li {
+    list-style: circle;
+    list-style-position: inside;
+}
+
+.datos {
+    display: flex;
+    justify-content: space-evenly;
+
 }
