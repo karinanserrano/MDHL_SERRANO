@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+    background-image: url(../assets/design1_image2.jpg);
+    background-size: cover;
+    color: rgb(236, 255, 233);
+    position: relative;
+    object-fit: cover;
+    object-position: 0;
+}
+.school div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+#logo {
+    float: right;
+}
+
+nav a {
+    display: flex;
+    flex-direction: column;    
+    margin: 5px;
+    margin-top: 25px;
+}
+
+.subtitulo {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    z-index: -1;
+}
+
+.titulo {
+    font-family: 'Arial';
+    font-size: 35px;
+    text-align: left;
+    font-weight: bolder;
+    position: relative;
+}
+
+h5 {
+    font-size: 20px;
+    font-family: 'Lucida Sans';
+}
+
+
+h3 {
+    font-family: 'Arial';
+    font-size: 20px;
+    justify-content: flex-start;
+    font-weight: bolder;
+    position: relative;
+    margin: 10px;
+}
+
+h2 {
+    font-style: italic;
+}
+iframe{
+    width: 200px;
+    height: 200px;
+}
+.maps{
+    display: flex;    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor>p {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    font-size: 20px;
+
+}
+.gender{
+    display: inline;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+    margin-top: 30px;
+}
+.f-contenedor{
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+    
+}
+fieldset{
+    margin-inline-start: 0;
+    border-width: 1.5px;
+}
+.f-contenedor div{
+    padding: 20px;
+}
+
+span {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+table {
+    background-color: aquamarine;
+    text-align: center;
+    padding-top: 15px;
+    min-height: auto;
+    width: 600px;
+    border-collapse: collapse;
+    margin: 15px;
+}
+
+table,
+th,
+td {
+    border: 1.5px solid;
+    border-color: black;
+}
+
+th {
+    background-color: rgb(39, 1, 75);
+    color: beige;
+}
+
+.inlist {
+    list-style-type: lower-alpha;
+
+}
+
+li {
+    list-style-position: inside;
+    margin: 15px;
+}
+
+ul li {
+    list-style: circle;
+    list-style-position: inside;
+}
+
+.datos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.f-inline{
+    display: inline;
+}
