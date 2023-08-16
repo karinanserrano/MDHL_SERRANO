@@ -15,8 +15,9 @@
             <h1>Mighty Ducks Hockey League</h1>
             <img id="logo" src="./assets/logo_Mighty_ducks-01.png" alt="Logo" width="200">
         </div>
-
-
+    </header>
+    <h4 class="subtitulo">Registration Form</h4>
+    <main class="f-contenedor">
         <nav>
             <a href="./index.html">Home</a>
             <a href="./about.html">About HDML</a>
@@ -25,9 +26,6 @@
             <a href="./rules-and-policies.html">Rules and policies</a>
             <a href="#">Registration Form</a>
         </nav>
-    </header>
-    <h4 class="subtitulo">Registration Form</h4>
-    <div class="f-contenedor">
         <form action="./show_data.html" method="get">
             <fieldset class="datos">
                 <div class="f-inline">
@@ -87,7 +85,7 @@
             <fieldset class="school">
                 <h4>Which elementary school do you live near?<br>Closest School</h4>
                 <div>
-                    
+
                     <div>
                         <input type="checkbox" id="katzenmaier" name="elementary_school" value="katz">
                         <label for="katzenmaier">AJ Katzenmaier: </label>
@@ -155,10 +153,14 @@
                 that I have read and cancellation policy and agree to thr terms.
             </p>
             <fieldset>
-                <label for="signature">Parents/Guardians Signature: </label>
-                <input type="text" id="signature" name="f-sign">
-                <label for="date">Date: </label>
-                <input type="date" id="date" name="f-date">
+                <div>
+                    <label for="signature">Parents/Guardians Signature: </label>
+                    <input type="text" id="signature" name="f-sign">
+                </div>
+                <div>
+                    <label for="date">Date: </label>
+                    <input type="date" id="date" name="f-date">
+                </div>
             </fieldset>
 
 
@@ -166,9 +168,14 @@
 
         </form>
 
-    </div>
-
+    </main>
+    <footer>
+        <div class="foot">
+            <h1>Mighty Ducks Hockey League</h1>
+        </div>
+    </footer>
 
 </body>
+
 
 </html>
